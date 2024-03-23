@@ -96,7 +96,7 @@ setInterval(() => {
     }
   });
 
-  reader.read((await api.get('https://iptv-org.github.io/iptv/countries/in.m3u')).data);
+  reader.read((await api.get('https://raw.githubusercontent.com/Gituwho/test/main/TLL_Localmerge_Tamil%20(1).m3u')).data);
 
   parsed = reader.getResult().segments;
 
