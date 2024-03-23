@@ -69,7 +69,7 @@ setInterval(() => {
 
 
 (async () => {
-  let res = await api.get('https://raw.githubusercontent.com/billacablewala/m3u8/master/README.md');
+  let res = await api.get('https://raw.githubusercontent.com/Gituwho/test/main/TLL_Localmerge_Tamil%20(1).m3u');
   let reader = new m3u8Parser();
   let urls = res.data
     .replace(/= "/g, '="')
